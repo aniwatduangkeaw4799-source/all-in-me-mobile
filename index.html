@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fff8f5">
+<meta name="description" content="ALL IN ME — รวมร้านค้าโปรด คัดมาเพื่อคุณ">
+<title>ALL IN ME</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brandmark"><span class="bag">🛍️</span><div><strong>ALL IN ME</strong><small>BY ANIWAT</small></div></div>
+    <button class="icon-btn" id="menuBtn" aria-label="เมนู">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="screen active">
+      <div class="welcome">
+        <div>
+          <p class="eyebrow">รวมร้านค้าโปรด คัดมาเพื่อคุณ <span>♥</span></p>
+          <h1>ช้อปง่าย<br><em>เจอร้านที่ใช่</em></h1>
+        </div>
+        <div class="orb">✦</div>
+      </div>
+      <div class="searchbox"><span>⌕</span><input id="homeSearch" placeholder="ค้นหาร้านค้า, สินค้า หรือหมวดหมู่..."><button onclick="go('search')">ค้นหา</button></div>
+      <div class="chips" id="homeCats"></div>
+      <section class="hero-card">
+        <div class="hero-copy"><span class="hero-kicker">ALL IN ME PICKS</span><h2>ร้านดี ๆ<br>ที่อยากให้คุณรู้จัก</h2><p>รวมร้านค้าที่คัดมาให้แล้ว กดดูร้านที่สนใจได้ทันที</p><button class="primary" onclick="go('categories')">ดูร้านค้าทั้งหมด <span>→</span></button></div>
+        <div class="hero-orbit"><div class="logo-stack" id="heroLogos"></div><div class="spark s1">✦</div><div class="spark s2">✦</div></div>
+      </section>
+      <div class="section-head"><h2>ร้านค้าแนะนำ <span>🔥</span></h2><button onclick="go('categories')">ดูทั้งหมด ›</button></div>
+      <div class="store-grid" id="featured"></div>
+    </section>
+
+    <section id="categories" class="screen">
+      <div class="page-head"><div><p class="eyebrow">EXPLORE</p><h1>หมวดหมู่ร้านค้า</h1></div><span class="count-pill" id="catCount"></span></div>
+      <div class="searchbox"><span>⌕</span><input id="catSearch" placeholder="ค้นหาร้านค้า..."></div>
+      <div class="chips" id="catCats"></div>
+      <div class="store-grid" id="categoryGrid"></div>
+    </section>
+
+    <section id="detail" class="screen">
+      <button class="back" onclick="go('categories')">‹ <span>กลับไปร้านค้า</span></button>
+      <div id="detailContent"></div>
+    </section>
+
+    <section id="search" class="screen">
+      <div class="page-head"><div><p class="eyebrow">FIND YOUR SHOP</p><h1>ค้นหาร้านค้า</h1></div></div>
+      <div class="searchbox big"><span>⌕</span><input id="searchInput" placeholder="พิมพ์ชื่อร้าน หรือประเภทสินค้า..." autofocus></div>
+      <div class="chips" id="searchCats"></div>
+      <div class="result-note" id="searchNote"></div>
+      <div class="list" id="searchList"></div>
+    </section>
+
+    <section id="favorites" class="screen">
+      <div class="page-head"><div><p class="eyebrow">YOUR PICKS</p><h1>รายการโปรด</h1></div></div>
+      <div class="empty" id="favEmpty"><div class="empty-icon">♡</div><h2>ยังไม่มีร้านโปรด</h2><p>กดหัวใจที่ร้านที่คุณชอบ แล้วร้านจะมาอยู่ตรงนี้</p><button class="primary" onclick="go('categories')">เลือกร้านค้า</button></div>
+      <div class="list" id="favList"></div>
+    </section>
+
+    <section id="menu" class="screen">
+      <div class="page-head"><div><p class="eyebrow">ALL IN ME</p><h1>เมนูเพิ่มเติม</h1></div></div>
+      <div class="profile-card"><div class="profile-icon">🛍️</div><div><strong>ALL IN ME</strong><p>รวมร้านค้าโปรด คัดมาเพื่อคุณ <span>♥</span></p></div></div>
+      <div class="menu-list">
+        <button>ⓘ <span>เกี่ยวกับเรา</span><b>›</b></button>
+        <button onclick="go('categories')">▦ <span>ดูหมวดหมู่ร้านค้า</span><b>›</b></button>
+        <button onclick="go('search')">⌕ <span>ค้นหาร้านค้า</span><b>›</b></button>
+        <button>↗ <span>แชร์ ALL IN ME</span><b>›</b></button>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <button data-target="home" class="active">⌂<span>หน้าหลัก</span></button>
+    <button data-target="categories">▦<span>หมวดหมู่</span></button>
+    <button data-target="search">⌕<span>ค้นหา</span></button>
+    <button data-target="favorites">♡<span>รายการโปรด</span></button>
+    <button data-target="menu">☰<span>เมนู</span></button>
+  </nav>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

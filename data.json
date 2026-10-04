@@ -1,0 +1,165 @@
+{
+  "brand": "ALL IN ME",
+  "stores": [
+    {
+      "id": "001",
+      "category": "สัตว์เลี้ยง",
+      "name": "Pedigree",
+      "detail": "อาหารสัตว์",
+      "url": "https://s.shopee.co.th/1Vzh2BSOl6",
+      "image": "assets/001.png"
+    },
+    {
+      "id": "002",
+      "category": "สัตว์เลี้ยง",
+      "name": "Pet Protect Thailand",
+      "detail": "อุปกรณ์สัตว์เลี้ยง",
+      "url": "https://s.shopee.co.th/20vxdyuJDl",
+      "image": "assets/002.png"
+    },
+    {
+      "id": "003",
+      "category": "สัตว์เลี้ยง",
+      "name": "MJ.Kudson Thailand",
+      "detail": "อาหารสัตว์ ผลิตภัณฑ์ทำความสะอาด",
+      "url": "https://s.shopee.co.th/6fhnCrWNgT",
+      "image": "assets/003.png"
+    },
+    {
+      "id": "004",
+      "category": "สัตว์เลี้ยง",
+      "name": "Pawdy official",
+      "detail": "อาหารสัตว์ ผลิตภัณฑ์ทำความสะอาด",
+      "url": "https://s.shopee.co.th/7Ae3od2oQW",
+      "image": "assets/004.png"
+    },
+    {
+      "id": "005",
+      "category": "สัตว์เลี้ยง",
+      "name": "Urbanmoof",
+      "detail": "อาหารสัตว์ ผลิตภัณฑ์ทำความสะอาด",
+      "url": "https://s.shopee.co.th/8Kq1DCKJfF",
+      "image": "assets/005.png"
+    },
+    {
+      "id": "006",
+      "category": "สัตว์เลี้ยง",
+      "name": "Virbac Official Shop",
+      "detail": "ผลิตภัณฑ์ทำความสะอาด",
+      "url": "https://s.shopee.co.th/8Kq1DkxNX4",
+      "image": "assets/006.png"
+    },
+    {
+      "id": "007",
+      "category": "สัตว์เลี้ยง",
+      "name": "JerHigh and Jinny Official",
+      "detail": "อาหารสัตว์",
+      "url": "https://s.shopee.co.th/7faKQmNh1P",
+      "image": "assets/007.png"
+    },
+    {
+      "id": "008",
+      "category": "สัตว์เลี้ยง",
+      "name": "Royal canin",
+      "detail": "อาหารสัตว์",
+      "url": "https://s.shopee.co.th/40h24E2HUg",
+      "image": "assets/008.png"
+    },
+    {
+      "id": "009",
+      "category": "สัตว์เลี้ยง",
+      "name": "SmartHeart & Me-O Official",
+      "detail": "อาหารสัตว์",
+      "url": "https://s.shopee.co.th/5LCPeqfMB3",
+      "image": "assets/009.png"
+    },
+    {
+      "id": "010",
+      "category": "สัตว์เลี้ยง",
+      "name": "Pramy and Prama",
+      "detail": "อาหารสัตว์",
+      "url": "https://s.shopee.co.th/8pmHpVHZ56",
+      "image": "assets/010.png"
+    },
+    {
+      "id": "011",
+      "category": "ของใช้ในบ้าน",
+      "name": "Meyer",
+      "detail": "เครื่องครัว อุปกรณ์ทำครัว",
+      "url": "https://s.shopee.co.th/1BMqtnsoNo",
+      "image": "assets/011.png"
+    },
+    {
+      "id": "012",
+      "category": "ของใช้ในบ้าน",
+      "name": "Homec official",
+      "detail": "อุปกรณ์ของใช้ในบ้าน",
+      "url": "https://s.shopee.co.th/6AlWrDFtKM",
+      "image": "assets/012.png"
+    },
+    {
+      "id": "013",
+      "category": "ของใช้ในบ้าน",
+      "name": "Dodolove",
+      "detail": "ผลิตภัณฑ์ทำความสะอาด สำหรับเด็ก",
+      "url": "https://s.shopee.co.th/2VsEUv9bQO",
+      "image": "assets/013.png"
+    },
+    {
+      "id": "014",
+      "category": "ของใช้ในบ้าน",
+      "name": "D-nee",
+      "detail": "ผลิตภัณฑ์ทำความสะอาด สำหรับเด็ก",
+      "url": "https://s.shopee.co.th/1VzhLfJzxu",
+      "image": "assets/014.png"
+    },
+    {
+      "id": "015",
+      "category": "ของใช้ในบ้าน",
+      "name": "Lion Shop Online",
+      "detail": "ผลิตภัณฑ์ทำความสะอาด",
+      "url": "https://s.shopee.co.th/80DB63vyQP",
+      "image": "assets/015.png"
+    },
+    {
+      "id": "016",
+      "category": "ของใช้ในบ้าน",
+      "name": "Neo Household",
+      "detail": "ผลิตภัณฑ์ทำความสะอาด",
+      "url": "https://s.shopee.co.th/2BFO9hSCNF",
+      "image": "assets/016.png"
+    },
+    {
+      "id": "017",
+      "category": "ของใช้ในบ้าน",
+      "name": "Lotuss",
+      "detail": "อุปกรณ์ของใช้ในบ้าน",
+      "url": "https://s.shopee.co.th/8pmI6PiIzI",
+      "image": "assets/017.png"
+    },
+    {
+      "id": "018",
+      "category": "ของใช้ในบ้าน",
+      "name": "P&G Official Shop",
+      "detail": "อุปกรณ์ของใช้ในบ้าน",
+      "url": "https://s.shopee.co.th/3Vklko1TRh",
+      "image": "assets/018.png"
+    },
+    {
+      "id": "019",
+      "category": "ของใช้ในบ้าน",
+      "name": "Oriental Princess Official Shop",
+      "detail": "ผลิตภัณฑ์ทำความสะอาด และ ความงาม",
+      "url": "https://s.shopee.co.th/1gJ7a0B5a1",
+      "image": "assets/019.png"
+    },
+    {
+      "id": "020",
+      "category": "ของใช้ในบ้าน",
+      "name": "Seagull Electric",
+      "detail": "อุปกรณ์เครื่องครัว และ อิเล็คโทรนิค",
+      "url": "https://s.shopee.co.th/4qG9MGxxxY",
+      "image": "assets/020.png"
+    }
+  ]
+}
