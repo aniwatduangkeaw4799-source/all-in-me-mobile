@@ -54,4 +54,4 @@ $("#menuBtn").onclick=()=>go("menu");
 $("#homeSearch").addEventListener("keydown",e=>{if(e.key==="Enter"){go("search");$("#searchInput").value=e.target.value;renderSearch()}});
 $("#catSearch").addEventListener("input",e=>{$("#categoryGrid").innerHTML=filtered(e.target.value).map(card).join("")});
 $("#searchInput").addEventListener("input",renderSearch);
-fetch("data.json").then(r=>r.json()).then(d=>{DB=d;renderAll()}).catch(()=>{document.body.innerHTML='<div style="padding:30px;font-family:sans-serif">โหลดข้อมูลร้านค้าไม่สำเร็จ กรุณาเปิดผ่านเว็บเซิร์ฟเวอร์</div>'});
+fetch("data.json").then(r=>r.json()).then(d=>{DB=d;d.stores.forEach(s=>s.image=s.image.replace(/^assets\//,""));renderAll()}).catch(()=>{document.body.innerHTML='<div style="padding:30px;font-family:sans-serif">โหลดข้อมูลร้านค้าไม่สำเร็จ กรุณาเปิดผ่านเว็บเซิร์ฟเวอร์</div>'});
